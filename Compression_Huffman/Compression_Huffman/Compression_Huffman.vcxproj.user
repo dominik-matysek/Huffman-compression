@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>-t d -i C:\Users\domin\OneDrive\Pulpit\pics_output.txt -o C:\Users\domin\OneDrive\Pulpit\pics2.bmp -s C:\Users\domin\OneDrive\Pulpit\pics_slownik.txt</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-t k -i C:\Users\domin\OneDrive\Pulpit\testy.txt -o C:\Users\domin\OneDrive\Pulpit\testyout.txt -s C:\Users\domin\OneDrive\Pulpit\testyslow.txt</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
